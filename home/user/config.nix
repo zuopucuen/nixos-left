@@ -5,4 +5,5 @@ in {
     ".vimrc".source = "${configDir}/vim/vimrc";
     ".config/wallpapers".source = "${configDir}/wallpapers";
     ".config/neofetch".source = "${configDir}/neofetch";
+  };
 }
