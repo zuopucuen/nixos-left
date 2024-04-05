@@ -2,38 +2,68 @@
 
 {
   environment.systemPackages = with pkgs; [
-    home-manager
+
+    # utils
+    file
+    which
+    tree
     bat
     fzf
-    git
-    lm_sensors
     neofetch
     tldr
-    unzip
     parted
     pciutils
-    wget
-    btop
-    htop
-    amdgpu_top
-    s-tui
+    usbutils
     pstree
     stress
+    ethtool
+    xdg-user-dirs
+    jq
+    vim
+
+    # utils-network
     tcpdump
     dig
-    vim
-    xdg-user-dirs
+    mtr
+    iperf3
+    socat
+    nmap
+
+    # utils-web
+    curl
+    wget
+
+    # utils-system-monitor
+    lm_sensors
+    btop
+    htop
+    iotop
+    iftop
+    amdgpu_top
+    s-tui
+    strace # system call monitoring
+    ltrace # library call monitoring
+    lsof # list open files
+
+    # utils-archives
+    zip
+    xz
+    unzip
+    p7zip
+
+    # utils-nixos
+    home-manager
     appimage-run
 
-    #code
+    # code
+    git
     nixpkgs-fmt
 
-    #system service
+    # system service
     pulseaudio
     wpa_supplicant
 
-    #kde program
-    #libsForQt5.kmix
+    # kde program
     krdc
 
     # desktop apps
@@ -41,7 +71,6 @@
     vlc
     mpv
     qq
-    #wechat-uos
   ];
 }
 
