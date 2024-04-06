@@ -3,6 +3,13 @@
 {
   environment.systemPackages = with pkgs; [
 
+    # libs
+    libva
+
+    # drivers
+    intel-vaapi-driver
+    intel-media-driver
+
     # utils
     file
     which
@@ -21,6 +28,7 @@
     jq
     vim
     libva-utils
+    inteltool
 
     # utils-network
     tcpdump
