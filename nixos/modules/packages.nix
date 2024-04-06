@@ -20,6 +20,7 @@
     xdg-user-dirs
     jq
     vim
+    libva-utils
 
     # utils-network
     tcpdump
