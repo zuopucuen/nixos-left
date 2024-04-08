@@ -29,6 +29,8 @@
     vim
     libva-utils
     inteltool
+    kitty
+    kitty-themes
 
     # utils-network
     tcpdump
