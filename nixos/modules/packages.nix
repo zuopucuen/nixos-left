@@ -31,6 +31,7 @@
     inteltool
     kitty
     kitty-themes
+    android-tools
 
     # utils-network
     tcpdump
@@ -84,4 +85,3 @@
     qq
   ];
 }
-
