@@ -83,5 +83,9 @@
     vlc
     mpv
     qq
+
+    #game 
+    zeroadPackages.zeroad-unwrapped
+    zeroadPackages.zeroad-data
   ];
 }
