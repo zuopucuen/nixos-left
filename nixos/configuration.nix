@@ -4,7 +4,7 @@
   imports = [ ./hardware-configuration.nix ./modules ];
 
   system = {
-    stateVersion = "23.11";
+    stateVersion = "24.05";
 
     # Auto system update
     autoUpgrade.enable = true;
