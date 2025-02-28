@@ -28,8 +28,8 @@
           inherit pkgs;
           modules = [
             ./home
-            { nixpkgs.overlays = [ nur.overlay ]; }
-            nur.hmModules.nur
+            { nixpkgs.overlays = [nur.overlays.default]; }
+            nur.modules.homeManager.default
           ];
           extraSpecialArgs = {
             inherit pkgs-unstable;

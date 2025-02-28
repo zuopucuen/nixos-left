@@ -21,14 +21,12 @@
     pkgs.lua
     (pkgs.python3.withPackages
       (python-pkgs: [ python-pkgs.pip python-pkgs.requests ]))
-    pkgs.nixfmt
+    pkgs.nixfmt-classic
 
     # Working
-    #pkgs.google-chrome
     pkgs.feishu
-    pkgs.nur.repos.wenjinnn.wechat-universal
+    pkgs.pkgs.wechat-uos
     pkgs.nur.repos.linyinfeng.wemeet
-    #pkgs.nur.repos.rewine.electron-netease-cloud-music
     pkgs.libreoffice-qt
   ];
 }

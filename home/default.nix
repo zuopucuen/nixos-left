@@ -5,6 +5,6 @@
 
   home.username = "left";
   home.homeDirectory = "/home/left";
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.11";
 }
 
