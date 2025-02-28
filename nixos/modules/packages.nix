@@ -5,6 +5,9 @@
 
     # libs
     libva
+    boringssl
+    libevent
+    libz
 
     # drivers
     intel-vaapi-driver
@@ -75,6 +78,7 @@
     cmake # CMake (only needed if you use bundled NVTT)
     gnumake
     pkg-config
+    go
 
 
     # system service

@@ -20,6 +20,13 @@
       dockerCompat = true;
       defaultNetwork.settings.dns_enabled = true;
     };
+
+    lxc = {
+      enable = true;
+      lxcfs.enable = true;
+      unprivilegedContainers = true;
+      defaultConfig = "";
+    };
   };
 
   environment.systemPackages = with pkgs; [
@@ -32,5 +39,6 @@
     virt-viewer
     win-spice
     win-virtio
+    lxc
   ];
 }

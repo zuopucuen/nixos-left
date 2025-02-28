@@ -4,7 +4,7 @@
   users.users.left = {
     isNormalUser = true;
     shell = pkgs.zsh;
-    extraGroups = [ "wheel" "audio" "qemu" "kvm" "libvirtd" "networkmanager" "docker" ];
+    extraGroups = [ "wheel" "audio" "qemu" "kvm" "libvirtd" "networkmanager" "docker" "lxc" ];
   };
 
   security.sudo.extraRules = [
