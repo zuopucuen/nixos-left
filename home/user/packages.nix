@@ -26,7 +26,7 @@
     # Working
     pkgs.feishu
     pkgs.pkgs.wechat-uos
-    pkgs.nur.repos.linyinfeng.wemeet
+    #pkgs.nur.repos.linyinfeng.wemeet
     pkgs.libreoffice-qt
   ];
 }
