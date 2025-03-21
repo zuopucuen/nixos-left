@@ -8,10 +8,19 @@
       enable = true;
       wayland.enable = true;
     };
+
     xserver = {
       enable = true;
       #dpi = 192;
       #upscaleDefaultCursor = true;
+    };
+    
+    openssh = {
+      enable = true;
+      settings = {
+        PermitRootLogin = "no";
+        PasswordAuthentication = false;
+      };
     };
   };
 
