@@ -36,6 +36,8 @@
     kitty-themes
     android-tools
     partition-manager
+    smartmontools
+    dmidecode
 
     # utils-network
     tcpdump
